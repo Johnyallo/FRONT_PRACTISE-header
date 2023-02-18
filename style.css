@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+/* header */
+.header {
+    padding: 20px 0px; 
+    display: flex; 
+    gap: 30px; 
+    font-family: Calibri; 
+    text-transform: uppercase; 
+    color: grey; 
+    font-size: 20px;
+}
+.options {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+}
+.options:hover {
+    background-color: #F5CA18; 
+    color: #fff;
+}
+
+/* main */
+.main {
+    height: 160px; 
+    background-color: darkslategrey;
+}
+.innercl1 {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.innerclass {
+    color: white; 
+    font-size: 20px; 
+    font-family: Calibri;
+    margin-top: -15px;
+}
